@@ -1,0 +1,22 @@
+info @storybook/react v6.4.22
+info 
+info => Cleaning outputDir: /var/folders/17/ytmmjm7d2hx6r5111bsfk1zc0000gn/T/chromatic--63172-lIKarwdJw847
+(node:63189) DeprecationWarning: --static-dir CLI flag is deprecated, see:
+
+https://github.com/storybookjs/storybook/blob/next/MIGRATION.md#deprecated---static-dir-cli-flag
+(Use `node --trace-deprecation ...` to show where the warning was created)
+info => Loading presets
+ERR! Error: Conflict when trying to read staticDirs:
+ERR! * Storybook's configuration option: 'staticDirs'
+ERR! * Storybook's CLI flag: '--staticDir' or '-s'
+ERR! 
+ERR! Choose one of them, but not both.
+ERR!     at buildStaticStandalone (/Users/petur.steinn/Work/Testing/Storybooks/learnstorybook-design-system/node_modules/@storybook/core-server/dist/cjs/build-static.js:104:11)
+ERR!     at async buildStatic (/Users/petur.steinn/Work/Testing/Storybooks/learnstorybook-design-system/node_modules/@storybook/core-server/dist/cjs/build-static.js:195:5)
+ERR!  Error: Conflict when trying to read staticDirs:
+ERR! * Storybook's configuration option: 'staticDirs'
+ERR! * Storybook's CLI flag: '--staticDir' or '-s'
+ERR! 
+ERR! Choose one of them, but not both.
+ERR!     at buildStaticStandalone (/Users/petur.steinn/Work/Testing/Storybooks/learnstorybook-design-system/node_modules/@storybook/core-server/dist/cjs/build-static.js:104:11)
+ERR!     at async buildStatic (/Users/petur.steinn/Work/Testing/Storybooks/learnstorybook-design-system/node_modules/@storybook/core-server/dist/cjs/build-static.js:195:5)
